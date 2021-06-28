@@ -1,0 +1,12 @@
+<title>Profile</title>
+
+<h1>Welocome to new world</h1>
+
+<h2>Hi Mr. <%= name%></h2>
+<h3>Email:<%=getData.Email%></h3>
+<h3>id:<%=getData.id%></h3>
+<ul>
+  <%getData.skills.forEach(function(skill){%>
+  <li><%=skill%></li>
+  <%})%>
+</ul>
